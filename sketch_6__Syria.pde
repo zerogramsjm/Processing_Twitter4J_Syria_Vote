@@ -33,10 +33,10 @@ void setup()
   Movie1.volume(0);
 
   ConfigurationBuilder cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey("3hu3d7SkGOgnDBzolWnsrBcai");
-  cb.setOAuthConsumerSecret("AZtSTdKLdITNErx2GciD2wWFc198OCUAKCdkw0VwSq4h7FV0dA");
-  cb.setOAuthAccessToken("2277212354-rQnSTSjDx6HLl3xCacQc9qO2oxdUGrH9ToynkRL");
-  cb.setOAuthAccessTokenSecret("euAvJRCz52fuWYG8kNxMnOtLxzJ7qx5vFNR4I4e8p1jiX");
+  cb.setOAuthConsumerKey("***");
+  cb.setOAuthConsumerSecret("***");
+  cb.setOAuthAccessToken("***");
+  cb.setOAuthAccessTokenSecret("***");
   TwitterFactory tf = new TwitterFactory(cb.build());
   twitter = tf.getInstance();
   getNewTweets();
